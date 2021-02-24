@@ -8,7 +8,7 @@ import time
 
 random.seed = (os.urandom(1026))
 
-url = 'https://paypal-login960.com/returnUri/signin'
+url = #chosen url target
 
 email_end = ('@yahoo.com', '@outlook.com', '@gmail.com', '@harvard.edu', '@email.com', '@oxford.ac.uk', '@yale.edu', '@outlook.co.uk', '@mit.edu', '@Hotmail.com', '@zoho.com', '@mail.com')
 
@@ -24,8 +24,7 @@ for name in names:
 	
 	try:
 		requests.post(url, allow_redirects = False, data = {
-			'EML': email,
-			'PWD': password
+			#Form data for post request
 		})
 
 		print('Sending email: %s and password: %s' % (email, password))
