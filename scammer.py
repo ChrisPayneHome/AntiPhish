@@ -12,8 +12,8 @@ url = #chosen url target
 
 email_end = ('@yahoo.com', '@outlook.com', '@gmail.com', '@harvard.edu', '@email.com', '@oxford.ac.uk', '@yale.edu', '@outlook.co.uk', '@mit.edu', '@Hotmail.com', '@zoho.com', '@mail.com')
 
-names = json.loads(open('names.json').read())
-words = json.loads(open('words.json').read())
+names = json.loads(open('JSON/names.json').read())
+words = json.loads(open('JSON/words.json').read())
 
 for name in names:
 	
